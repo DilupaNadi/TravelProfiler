@@ -28,6 +28,7 @@ if ($_SESSION["logged"] != "true") {
         <!-- AdminLTE Skins. Choose a skin from the css/skins
              folder instead of downloading all of them to reduce the load. -->
         <link rel="stylesheet" href="dist/css/skins/skin-black-light.min.css">
+        <link href="path-to-file/social-sharing.css" rel="stylesheet">
 
 
         <!-- Start WOWSlider.com HEAD section -->
@@ -193,9 +194,16 @@ if ($_SESSION["logged"] != "true") {
                                             <!--                                            <a class="info" href="#">link here</a>-->
                                         </div>
                                     </div>
-                                </div>
-                            </div>                                                    
-
+                                </div>                      
+                            </div>  
+                            <br>
+                            
+            <a href="http://twitter.com/home?status=" title="Share on Twitter" target="_blank" class="btn btn-twitter"><i class="fa fa-twitter"></i> Twitter</a>
+            <div class="fb-share-button" data-href="https://web.facebook.com/TravelProfilerSL/" data-layout="button_count"></div>
+            <a href="https://plus.google.com/share?url=" title="Share on Google+" target="_blank" class="btn btn-googleplus"><i class="fa fa-google-plus"></i> Google+</a>
+            <a href="http://www.stumbleupon.com/submit?url=" title="Share on StumbleUpon" target="_blank" data-placement="top" class="btn btn-stumbleupon"><i class="fa fa-stumbleupon"></i> Stumbleupon</a>
+            <a href="http://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=" title="Share on LinkedIn" target="_blank" class="btn btn-linkedin"><i class="fa fa-linkedin"></i> LinkedIn</a>
+                            
                             <!--                            <div class="row" style="margin-top: 20px">
                                                             <div class="col-sm-3">
                                                                 <div class="hovereffect">
@@ -265,8 +273,14 @@ if ($_SESSION["logged"] != "true") {
 
                     </div>
             </div>
-            <div class="fb-like" data-href="https://web.facebook.com/TravelProfilerSL/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 
+           
+<!--            <a href="http://twitter.com/home?status=" title="Share on Twitter" target="_blank" class="btn btn-twitter"><i class="fa fa-twitter"></i> Twitter</a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=" title="Share on Facebook" target="_blank" class="btn btn-facebook"><i class="fa fa-facebook"></i> Facebook</a>
+            <a href="https://plus.google.com/share?url=" title="Share on Google+" target="_blank" class="btn btn-googleplus"><i class="fa fa-google-plus"></i> Google+</a>
+            <a href="http://www.stumbleupon.com/submit?url=" title="Share on StumbleUpon" target="_blank" data-placement="top" class="btn btn-stumbleupon"><i class="fa fa-stumbleupon"></i> Stumbleupon</a>
+            <a href="http://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=" title="Share on LinkedIn" target="_blank" class="btn btn-linkedin"><i class="fa fa-linkedin"></i> LinkedIn</a>-->
+     
 
         </section><!-- /.content -->
     </div><!-- /.content-wrapper -->
@@ -280,7 +294,13 @@ if ($_SESSION["logged"] != "true") {
 
     <!-- Add the sidebar's background. This div must be placed
          immediately after the control sidebar -->
-    <div class="control-sidebar-bg"></div>
+    <div class="control-sidebar-bg">
+        <a href="http://twitter.com/home?status=" title="Share on Twitter" target="_blank" class="btn btn-twitter"><i class="fa fa-twitter"></i> Twitter</a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=" title="Share on Facebook" target="_blank" class="btn btn-facebook"><i class="fa fa-facebook"></i> Facebook</a>
+            <a href="https://plus.google.com/share?url=" title="Share on Google+" target="_blank" class="btn btn-googleplus"><i class="fa fa-google-plus"></i> Google+</a>
+            <a href="http://www.stumbleupon.com/submit?url=" title="Share on StumbleUpon" target="_blank" data-placement="top" class="btn btn-stumbleupon"><i class="fa fa-stumbleupon"></i> Stumbleupon</a>
+            <a href="http://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=" title="Share on LinkedIn" target="_blank" class="btn btn-linkedin"><i class="fa fa-linkedin"></i> LinkedIn</a>
+    </div>
 </div><!-- ./wrapper -->
 
 <!-- jQuery 2.1.4 -->
@@ -300,7 +320,7 @@ if ($_SESSION["logged"] != "true") {
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
 </body>
-<div id="fb-root"></div>
+<<div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;

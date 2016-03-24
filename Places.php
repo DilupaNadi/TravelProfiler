@@ -650,7 +650,12 @@ $usercat = $row['user_category'];
                     </div>
                         
 <!--                        <div class="fb-share-button" data-href="http://localhost/Travel_profiler/Places.php" data-layout="button_count"></div> -->
-                        <button onclick="myFunction()">Print</button>
+<!--                        <button onclick="myFunction()">Print</button>-->
+                        
+                        <button type="button" class="btn btn-primary" onclick="myFunction()">Print</button>
+                        
+                          
+
             </div>
 
 
