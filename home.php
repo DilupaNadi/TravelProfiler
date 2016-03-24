@@ -320,7 +320,8 @@ if ($_SESSION["logged"] != "true") {
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
 </body>
-<<div id="fb-root"></div>
+<div id="fb-root"></div>
+<!--<div id="timer"></div>-->
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
